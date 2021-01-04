@@ -14,6 +14,6 @@ planeteer_calls.any? {|calls| calls.length > 4}
 end
 
 def find_valid_calls(planeteer_calls)
-  
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  planeteer_calls.find {|call| valid_calls.include?(call)}
 end
