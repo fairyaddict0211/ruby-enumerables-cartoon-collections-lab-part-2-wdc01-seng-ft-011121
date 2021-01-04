@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-planeteer_calls.any{ |string| string.length > 4}
+planeteer_calls.any?{ |string| string.length > 4}
 end
 
 def find_valid_calls(planeteer_calls)
